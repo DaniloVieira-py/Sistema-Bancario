@@ -21,6 +21,6 @@ def menu():
             else:
                 print('OPCAO INCORRETA!!')
         except ValueError:
-            print('ERRO NA DIGITACAO.TENTE NOVAMENTE!')
+            print('USE SOMENTE NUMEMEROS PARA DIGITAR A OPCAO!')
 
 menu()
